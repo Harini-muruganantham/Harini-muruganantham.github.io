@@ -1,0 +1,58 @@
+.background{
+	width: 1500px;
+	height: 900px;
+	background-image:url('contact.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+}
+.nav{
+	width: 350px;
+	height:auto;
+	position: absolute;
+	top: 5%;
+	left: 0;
+
+}
+.nav a{
+	text-decoration: none;
+	font-size: 28px;
+	font-family: 'comic sans';
+	font-weight: bold;
+	height: 90px;
+	margin: 5px 0;
+	float: left;
+	background-color: black;
+	color: white;
+	line-height: 90px;
+	text-align: center;
+	transition: 300ms;
+}
+.a{
+	width:95%;
+}
+.b{
+	width: 85%;
+}
+.c{
+	width: 85%;
+}
+.d{
+	width: 85%;
+}
+p{
+	font-family: 'comic sans';
+	font-size: 25px;
+	color: blueviolet;
+}
+a{
+	font-family: 'comic sans';
+	font-size: 20px;
+	color: blueviolet;
+}
+label{
+	font-family: 'comic sans';
+	font-size: 20px;
+	color: black;
+}

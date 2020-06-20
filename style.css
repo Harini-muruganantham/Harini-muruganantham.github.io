@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+	width: 100px;
+	height: 100px;
+	font-size: 14px;
+	font-weight: normal;
+}
+.nav{
+	width: 350px;
+	height:auto;
+	position: absolute;
+	top: 5%;
+	left: 0;
+
+}
+.nav a{
+	text-decoration: none;
+	font-size: 28px;
+	font-family: 'comic sans';
+	font-weight: bold;
+	height: 90px;
+	margin: 5px 0;
+	float: left;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	line-height: 90px;
+	text-align: center;
+	transition: 300ms;
+}
+.background{
+	width: 1650px;
+	height: 900px;
+	background-image:url('lap2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow-y: auto;
+}
+
+a.active,.nav a:hover{
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+.a{
+	width:95%;
+}
+.b{
+	width: 85%;
+}
+.c{
+	width: 85%;
+}
+.d{
+	width: 85%;
+}
+.e{
+	width: 85%;
+}
+.content{
+	position: absolute;
+	width: 930px;
+	min-height: 500px;
+	height: auto;
+	right: 0;
+	top: 10%;
+}
+
+.home{
+	position: absolute;
+	right: 0px;
+	bottom: -50px;
+	left: -400px;
+	top: 100px;
+	color: black;
+	font-family: gabriola;
+	text-transform: uppercase;
+}
+.home h1{
+	font-size: 100px;
+	padding-right: 90px;
+	text-transform: uppercase;
+	border-bottom: 3px solid white;
+}
+.home h3{
+	font-size: 80px;
+	padding: 5px 0;
+}
